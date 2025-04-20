@@ -29,7 +29,7 @@ const Pricing = () => {
             </div>
             <div onClick={handlePlan} className='cursor-pointer relative slider-parent Pricing-slider flex justify-start px-5 mx-auto mt-15 border-0 rounded-full max-md:w-[350px] w-[408px] h-[107px] bg-red-50'>
                 <div className='flex justify-end'>
-                    <div className={`${plan ? "translate-x-0" : "translate-x-[150px]"} relative z-10 transition-all duration-500 flex slider-switch w-[163px] h-[84px] my-auto rounded-4xl  bg-red-500`}>
+                    <div className={`${plan ? "translate-x-0" : "max-md:translate-x-[150px] traslate-x-[200px]"} relative z-10 transition-all duration-500 flex slider-switch w-[163px] h-[84px] my-auto rounded-4xl  bg-red-500`}>
                         <h1 className={`${plan ? "translate-x-0" : "translate-x-0"} mr-auto text-center mx-auto my-auto text-xl font-medium text-white transition-all duration-100`}>{`${plan ? "MONTHLY" : "ANNUAL"}`}</h1>
                     </div>
 
