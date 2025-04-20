@@ -28,7 +28,7 @@ const Navbar = () => {
         if(visible){
 
             tl.to(".mobileNav", {
-                left: "50%",
+               x: "-100%"   ,
                 duration: 0.8,
                 delay: 0,
             })
@@ -49,7 +49,7 @@ const Navbar = () => {
 
           else{
                 tl.to(".mobileNav", {
-                    left: "100%",
+                   x: "0",
                     duration: 0.8,
                     delay: 0,
                 })
@@ -68,7 +68,7 @@ const Navbar = () => {
     },[visible])
 
     return (
-        <div className='navbar'>
+        <div className='navbar overflow-x-hidden'>
             <div className='navBar1 max-md:hidden flex justify-between xl:px-90 max-lg:px-10 lg:px-30 pt-7 text-[16px] font-medium text-white align-middle'>
                 <a href="#Features" className='hover:text-blue-400 mt-2'>Features</a>
                 <a href="#Pricing" className='hover:text-blue-400 mt-2'>Pricing</a>
@@ -83,8 +83,8 @@ const Navbar = () => {
                 <a href="#Home"><img src={xoraSvg} className='w-25' alt="" /></a>
                 <img src={menu} onClick={()=>setVisible(true)} alt="" className='p-2 cursor-pointer border-1 rounded-full border-blue-700 w-8 h-8' />
             </div>
-            <div className='md:hiddenflex justify-end '>
-                <div className={`mobileNav md:hidden w-[70%] left-[100%] bg-blue-900 h-screen top-0 absolute `}>
+            <div className='md:hidden flex justify-end '>
+                <div className={`mobileNav md:hidden w-[70%] left-[100%] bg-blue-900 h-screen top-0 fixed `}>
                     <div className=''>
                         <div className='navLinks md:hidden flex flex-col xl:px-70 max-lg:px-10 pt-5 lg:px-40 gap-3 text-[20px] font-medium text-white  text-left '>
                             <a href="#Features" onClick={()=>setVisible(false)}  className='hover:text-blue-400 mt-3'>Features</a>
@@ -92,7 +92,7 @@ const Navbar = () => {
                             <a href="#Faq"  onClick={()=>setVisible(false)} className='hover:text-blue-400 mt-3'>Faq</a>
                             <a href="#Download" onClick={()=>setVisible(false)}  className='hover:text-blue-400 mt-3'>Download</a>
 
-                            <img src={close} onClick={()=>setVisible(false)} alt="" className='closeImg absolute w-7 right-40 top-4 cursor-pointer  border-0 rounded-full p-1' />
+                            <img src={close} onClick={()=>setVisible(false)} alt="" className='closeImg absolute w-7 right-5 top-4 cursor-pointer  border-0 rounded-full p-1' />
 
                         </div>
                     </div>

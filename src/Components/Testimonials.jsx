@@ -15,8 +15,8 @@ const Testimonials = () => {
             <h1 className='text-5xl font-bold text-white text-center underline underline-offset-4 decoration-gray-300 decoration-2'>Words from our fans</h1>
         </div>
         <div className='grid grid-cols-3 max-lg:grid-cols-1 tracking-wide mt-10'>   
-            <div className='card mb-10 mx-auto w-100 h-100 '>
-                <p className='text-white text-xl mt-25 w-80 text-center mx-auto'>Xora's customer support is second to none! They're like my tech superheroes, always there when I need them.</p>
+            <div className='card max-md:w-70 mb-10 mx-auto w-100 h-100 '>
+                <p className='text-white text-xl max-md:text-[16px] max-md:w-60  mt-25 w-80 text-center mx-auto'>Xora's customer support is second to none! They're like my tech superheroes, always there when I need them.</p>
                 <div className='flex justify-center mt-10 gap-3 text-xl'>
                     <FaStar className='text-blue-500'/>
                     <FaStar className='text-blue-500'/>
@@ -33,8 +33,8 @@ const Testimonials = () => {
                
             </div>
             </div>
-            <div className='card mb-10 mx-auto w-100 h-100 '>
-                <p className='text-white text-xl mt-25 w-80 text-center mx-auto'>The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.</p>
+            <div className='card max-md:w-70 mb-10 mx-auto w-100 h-100 '>
+                <p className='text-white text-xl max-md:text-[16px] max-md:w-60  mt-25 w-80 text-center mx-auto'>The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.</p>
                 <div className='flex justify-center mt-10 gap-3 text-xl'>
                     <FaStar className='text-blue-500'/>
                     <FaStar className='text-blue-500'/>
@@ -51,8 +51,8 @@ const Testimonials = () => {
                
             </div>
             </div>
-                <div className='card mb-10 mx-auto w-100 h-100 '>
-                    <p className='text-white text-xl mt-25 w-80 text-center mx-auto'>I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.</p>
+                <div className='card max-md:w-70 mb-10 mx-auto w-100 h-100 '>
+                    <p className='text-white text-xl max-md:text-[16px] max-md:w-60  mt-25 w-80 text-center mx-auto'>I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.</p>
                     <div className='flex justify-center mt-10 gap-3 text-xl'>
                         <FaStar className='text-blue-500'/>
                         <FaStar className='text-blue-500'/>
@@ -69,8 +69,8 @@ const Testimonials = () => {
                 
                 </div>
                 </div>
-                <div className='card mb-10 mx-auto w-100 h-100 '>
-                    <p className='text-white text-xl mt-25 w-80 text-center mx-auto'>Switched to Xora last month, and I'm already seeing results. Best decision for our team!.</p>
+                <div className='card max-md:w-70 mb-10 mx-auto w-100 h-100 '>
+                    <p className='text-white text-xl max-md:text-[16px] max-md:w-60  mt-25 w-80 text-center mx-auto'>Switched to Xora last month, and I'm already seeing results. Best decision for our team!.</p>
                     <div className='flex justify-center mt-10 gap-3 text-xl'>
                         <FaStar className='text-blue-500'/>
                         <FaStar className='text-blue-500'/>
@@ -87,8 +87,8 @@ const Testimonials = () => {
                 
                 </div>
                 </div>
-                <div className='card mb-10 mx-auto w-100 h-100 '>
-                    <p className='text-white text-xl mt-25 w-80 text-center mx-auto'>Adopting this software was a breeze. It's made everyday tasks so much simpler.</p>
+                <div className='card max-md:w-70 mb-10 mx-auto w-100 h-100 '>
+                    <p className='text-white text-xl max-md:text-[16px] max-md:w-60  mt-25 w-80 text-center mx-auto'>Adopting this software was a breeze. It's made everyday tasks so much simpler.</p>
                     <div className='flex justify-center mt-10 gap-3 text-xl'>
                         <FaStar className='text-blue-500'/>
                         <FaStar className='text-blue-500'/>
@@ -106,8 +106,8 @@ const Testimonials = () => {
                 
                 </div>
                 </div>
-                    <div className='card mb-10 mx-auto w-100 h-100 '>
-                        <p className='text-white text-xl mt-25 w-80 text-center mx-auto'>The efficiency boost is undeniable. This platform has transformed our workflow, forever.</p>
+                    <div className='card max-md:w-70 mb-10 mx-auto w-100 h-100 '>
+                        <p className='text-white text-xl max-md:text-[16px] max-md:w-60  mt-25 w-80 text-center mx-auto'>The efficiency boost is undeniable. This platform has transformed our workflow, forever.</p>
                         <div className='flex justify-center mt-10 gap-3 text-xl'>
                             <FaStar className='text-blue-500'/>
                             <FaStar className='text-blue-500'/>

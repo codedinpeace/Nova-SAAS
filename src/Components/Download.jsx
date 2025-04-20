@@ -28,10 +28,10 @@ const Download = () => {
             <img src={screen} className='max-md:w-100 max-lg:mx-auto w-200 max-xl:w-150 mt-[10%]  p-3 border-1 border-[#f8f9ff7a] rounded-2xl ' alt="" />
         </div>
         <div className='flex justify-evenly mt-20 gap-10 flex-wrap max-w-none'>
-            <img src={afterplay} alt="" />
-            <img src={amplitude} alt="" />
-            <img src={drips} alt="" />
-            <img src={maze} alt="" />
+            <img src={afterplay} alt="" className='max-md:w-25' />
+            <img src={amplitude} alt="" className='max-md:w-25' />
+            <img src={drips} alt=""  className='max-md:w-25'/>
+            <img src={maze} alt=""  className='max-md:w-25'/>
             <img className='max-lg:hidden' src={sonos} alt="" />
         </div>
     </div>
