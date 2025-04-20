@@ -12,7 +12,7 @@ const Testimonials = () => {
   return (
     <div className='' id='Testimonials'>
         <div className='flex justify-center'>
-            <h1 className='text-5xl font-bold text-white text-center underline underline-offset-4 decoration-gray-300 decoration-2'>Words from our fans</h1>
+            <h1 className='text-5xl font-bold text-white text-center underline underline-offset-4 max-md:text-3xl decoration-gray-300 decoration-2'>Words from our fans</h1>
         </div>
         <div className='grid grid-cols-3 max-lg:grid-cols-1 tracking-wide mt-10'>   
             <div className='card max-md:w-70 mb-10 mx-auto w-100 h-100 '>

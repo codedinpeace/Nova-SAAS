@@ -29,7 +29,7 @@ html,body{
 .mobileNav{
   background-color: #1b2f6d9f;
   backdrop-filter: blur(30px);
-  z-index: 2;
+  z-index: 2; 
 }
 
 .closeImg{
@@ -209,14 +209,14 @@ html,body{
 
 #Faq{
   background-color: #010725;
-  height: 1300px;
+  height: 1700px;
   margin: 200px auto;
   border-bottom: 1px solid rgba(255, 255, 255, 0.418);
 }
 
 @media screen and (min-width:1024px) {
   #Faq{
-    height: 800px;
+    height: 1200px;
   }
 }
 
@@ -263,7 +263,7 @@ html,body{
 
 @media screen and (min-width:1200px){
   #Download{
-    height: 100vh;
+    height: 120vh;
   }
 }
 
