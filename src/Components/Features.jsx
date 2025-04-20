@@ -19,7 +19,7 @@ const Features = () => {
     return (
         <div id='Features'>
             <div className='cards  mt-30 max-lg:gap-10 lg:flex  flex-wrap justify-center relative '>
-                <div className="card1 mb-10 max-md:mx-auto h-[950px] w-[543px] max-lg:h-[700px] max-lg:w-[400px]">
+                <div className="card1 mb-10 max-lg:mx-auto h-[950px] w-[543px] max-lg:h-[700px] max-lg:w-[400px]">
                     <img src={Feature1} alt="" className='w-30 py-10 pl-5' />
                     <p className='pl-10'>EASY INEGRATION</p>
                     <h1 className='max-lg:text-3xl md:text-4xl lg:text-5xl text-white font-bold pl-10 pt-10 lg:w-100'>Work smarter Not harder</h1>
@@ -28,7 +28,7 @@ const Features = () => {
                     <button className=' ml-10 text CTA flex mt-15 text-xl  w-75 border-0 rounded-3xl h-15 max-sm:text-[16px] max-sm:rounded-2xl cursor-pointer'><img src={magic} alt=""/><p className='mt-4  pl-2 font-medium'>WATCH THE DEMO</p></button>
                     </span>
                 </div>
-                <div className="card2 card1 h-[950px] max-md:mx-auto  w-[543px] max-lg:h-[700px] max-lg:w-[400px]">
+                <div className="card2 card1 h-[950px] max-lg:mx-auto  w-[543px] max-lg:h-[700px] max-lg:w-[400px]">
                     <img src={Feature2} alt="" className='w-30 py-10 pl-5' />
                     <p className='pl-10'>SECURE AND TRUSTWORTHY</p>
                     <h1 className='text-3xl md:text-4xl lg:text-5xl text-white font-bold pl-10 pt-10 lg:w-120'>Sleep easy, we got your back</h1>
