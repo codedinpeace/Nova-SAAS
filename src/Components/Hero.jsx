@@ -32,9 +32,6 @@ const Hero = () => {
 
   return (
     <div className='hero'>
-        <div className='purpose mt-48 text-left lg:pl-37 xl:pl-97 max-md:pl-17 md:pl-17'>
-            <p>VIDEO  EDITING</p>
-        </div>
         <div className='tagline  flex justify-around gap-0 max-sm:flex-col max-md:justify-center text-white text-5xl text-left font-bold  md:text-4xl lg:text-8xl '>
             <h1 className=' mt-5 pr-5  w-70 md:w-80 lg:w-100 lg:pl-35 max-md:pl-15 md:pl-15 max-sm:leading-12 md:leading-10 lg:leading-25 max-md:leading-10  xl:pl-65 tracking-normal leading-20'>AMAZINGLY SIMPLE
             <p className='text text-xl font-light max-md:w-70 max-md:text-[16px] xl:text-2xl  w-100 max-md:leading-6 leading-8 mt-8'>We designed XORA AI Video Editor to be an easy to use, quick to learn, and surprisingly powerful.</p>
